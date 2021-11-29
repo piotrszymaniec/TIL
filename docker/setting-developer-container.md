@@ -46,6 +46,8 @@ usefull commands
 docker image ls
 docker rm image-container-to-be-removed
 # add -f if you want to remove container thats already running
+  
+docker ps #list containers currently running  
 ```
 
 
