@@ -57,6 +57,12 @@ docker run -v ${pwd}\src:/app/src -d -p localhostPort:containerPort -name app-na
 # macOs or linux  
 docker run -v $(pwd)/src:/app/src -d -p localhostPort:containerPort -name app-name container-image-name  
 ```
+### on Windows
+when page upon refresh is not changing add following command to your ```docker run```:  
+
+```
+-e CHOKIDAR_USEPOLLING=true
+```
 
 usefull commands  
 ```terminal
