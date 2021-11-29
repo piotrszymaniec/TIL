@@ -44,6 +44,7 @@ docker run -d --name app-name our-app-image-name
 usefull commands  
 ```terminal
 docker image ls
+docker rm image-container-to-be-removed
 ```
 
 
