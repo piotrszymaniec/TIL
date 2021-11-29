@@ -37,10 +37,27 @@ now:
 ```terminal
 cd path-to-our-app
 # -t command is for naming our image container, without it our container would be named with some hash string
-docker build -t our-app-image-name . 
+docker build -t container-image-name . 
 #
-docker run -d --name app-name our-app-image-name
+docker run -d --name app-name container-image-name
 ```
+### setting up syncing app folder between local host and docker container 
+/app - default directory in node docker container
+/src - our src in app directory or wherever you store your project source
+
+```bash
+docker run -v fullPathTolocalhostAppDirectory:containerAppDirectory -d -p localhostPort:containerPort -name app-name container-image-name  
+or  
+# windows cmd terminal 
+docker run -v %cd%\src:/app/src -d -p localhostPort:containerPort -name app-name container-image-name  
+  
+# windows  powershell  
+docker run -v ${pwd}\src:/app/src -d -p localhostPort:containerPort -name app-name container-image-name  
+  
+# macOs or linux  
+docker run -v $(pwd)/src:/app/src -d -p localhostPort:containerPort -name app-name container-image-name  
+```
+
 usefull commands  
 ```terminal
 docker image ls
