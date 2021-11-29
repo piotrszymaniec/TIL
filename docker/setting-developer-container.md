@@ -77,6 +77,12 @@ docker ps
 docker exec -it bash  
 ```
 
+### full article with instructions for production env and using docker composer
+https://medium.com/@suraj.kc/adding-docker-containers-for-react-applications-803914b2077b
+
+### in case of errors  
+https://github.com/facebook/create-react-app/issues/10253  
+https://nerdschalk.com/how-to-fix-is-not-recognized-as-an-internal-or-external-command-operable-program-or-batch-file-error/  
 
 
 Thanks! https://www.youtube.com/watch?v=3xDAU5cvi5E
