@@ -12,3 +12,5 @@ https://shape.method.ac/
 https://boolean.method.ac/
 #### learn about kerning, test and practice your skill
 https://type.method.ac/
+#### font games
+https://ilovetypography.com/tag/quiz/
