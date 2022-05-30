@@ -1,4 +1,8 @@
 # Git
+## How to get back to detached head commits
+```
+git switch -c lost-commits
+```
 ## How to undo a git commit without losing your files?
 
 There are a lot of ways to do so, for example:  
