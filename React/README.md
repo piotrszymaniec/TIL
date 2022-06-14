@@ -8,19 +8,19 @@
 
 
 <a name="courses"></a>
-### Courses
+### 1. Courses
 #### Free
 - https://egghead.io/courses/the-beginner-s-guide-to-react
 - https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
 #### Paid
 - https://ui.dev/react-query
 <a name="articles"></a>
-### Articles
+### 2. Articles
 - https://kentcdodds.com/blog/when-to-break-up-a-component-into-multiple-components ?
 - tests https://benmccormick.org/2016/09/19/testing-with-jest-snapshots-first-impressions/
 - Debugging React apps with ReactDevTools https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/
 <a name="components"></a>  
-### Designing Components
+### 3. Designing Components
 #### Rules of designing easy to maintain components 
 
 > The first thing you’ll want to do is to draw boxes around every component (and subcomponent) in the mock and give them all names.  
@@ -29,5 +29,5 @@
 
 https://dev.to/victorocna/my-secret-trick-for-writing-great-react-components-fb8
 <a name="talks"></a>
-### Talks
+### 4. Talks
 https://github.com/kjendrzyca/awesome-react-talks
