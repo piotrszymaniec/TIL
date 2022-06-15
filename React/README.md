@@ -12,6 +12,7 @@
 #### Free
 - https://egghead.io/courses/the-beginner-s-guide-to-react
 - https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
+- [Modern Guide to React Net Ninja](./net-ninja-course-outline.md)
 #### Paid
 - https://ui.dev/react-query
 <a name="articles"></a>
