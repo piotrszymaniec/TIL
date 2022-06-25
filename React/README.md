@@ -33,3 +33,6 @@ https://dev.to/victorocna/my-secret-trick-for-writing-great-react-components-fb8
 <a name="talks"></a>
 ### 4. Talks
 https://github.com/kjendrzyca/awesome-react-talks
+### 5. Styling
+https://blog.bitsrc.io/5-methods-to-persisting-state-between-page-reloads-in-react-8fc9abd3fa2f
+what is https://bit.dev/ ?
