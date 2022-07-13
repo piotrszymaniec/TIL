@@ -11,4 +11,4 @@ https://www.youtube.com/watch?v=vc_xcbmAljw
 ### job mock interviews   
 [leetcode](https://leetcode.com)  
 
-#### swoja droga juz sam plan dowolnego płatnego kursu moze Ci dac wskazowki (np frazy uzywane, ktorych nie znasz a mozesz dalej zgooglowac)  
+#### Swoja droga juz sam plan dowolnego płatnego kursu moze Ci dac wskazowki (np frazy uzywane, ktorych nie znasz a mozesz dalej zgooglowac)  
