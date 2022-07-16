@@ -58,7 +58,6 @@ git rm -r --cached .
 git add .
 git commit -m "fixed untracked files" 
 ```
-6. That's it. Comment if you any questions.
 ---
 **Update**: Windows users make sure your `.gitignore` uses UTF-8 rather than UTF-16. See [comment](https://gist.github.com/pavankjadda/2bb6fbdd8786e1f57fd7bcbcc666b51d?permalink_comment_id=3860456#gistcomment-3860456) for details  
 credit https://gist.github.com/pavankjadda/2bb6fbdd8786e1f57fd7bcbcc666b51d
