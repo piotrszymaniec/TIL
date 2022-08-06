@@ -1,7 +1,34 @@
 # Git
+---
+### How-to create repo on github from commandline
+- prereq: [gh client](https://cli.github.com)  
+- additional infor [gh docs](https://cli.github.com/manual/gh_repo_create)  
+
+1. generate auth token on your github profile page
+2. run ```gh auth login```
+3. follow the steps
+4. if you want connect with ssh and you dont have it yet (cancel gh step process and resume it after these steps)
+  - (on windows) run ```ssh-keygen -t ed25519 -C "your@email.adress"```
+  - choose filename ex. user
+  - it will create 2 files user and user.pub copy both of them to .ssh/ directiory in your user directory
+5. authenticate your github on this computer via webpage or access token
+6. choose authentication method - use auth token from step 1. or authenticate via webpage login
+7. preliminary steps complete. Now cutting to the chase:
+
+from direcotry with some repo it creates ghub repo with same name and sets **remote** to ghub
+```
+gh create repo
+```
+or
+```
+gh create repo new-repo-on-ghub-with-different-name-than-current-directory
+```
+---
+
 ## How to get back to detached head commits
 ```
 git switch -c lost-commits
+---
 ```
 ## How to undo a git commit without losing your files?
 
@@ -32,6 +59,7 @@ now if you want to have those changes as you local changes in your working copy 
 ```
 git revert --no-commit 86b48ba (hash of the revert commit). 
 ```
+---
 ## How to fix .gitignore so it does exclude selected folder
 Sometimes git does not exclude files/folders added `.gitignore` especially if you had commited them before. Here is how to fix it. I am ignoring [node_modules](https://user-images.githubusercontent.com/17564080/51767305-ef21a700-20aa-11e9-98b2-01d7a76b403c.png) from Angular project as an example
 
