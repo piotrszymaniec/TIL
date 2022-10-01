@@ -3,7 +3,7 @@
 ### authorizing push access to repos on github  
 1. generate ssh key - preferably name it id_rsa so next command choose it by default  
 ```
-ssh-keygen -t ed25519 0C "your@github.email"
+ssh-keygen -t ed25519 -C "your@github.email"
 ```
 2. start ssh agent  
 ```
