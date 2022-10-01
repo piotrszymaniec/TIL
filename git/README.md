@@ -1,5 +1,27 @@
 # Git
 ---
+### authorizing push access to repos on github  
+1. generate ssh key - preferably name it id_rsa so next command choose it by default  
+```
+ssh-keygen -t ed25519 0C "your@github.email"
+```
+2. start ssh agent  
+```
+start-ssh-agent and enter passphrase if you added it in previous step
+```
+3. add generated key for example id_rsa, when in c:/users/username directory  
+```
+ssh-add ./ssh/id_rsa
+```
+4. add key to github  
+```
+gh ssh-key add id_rsa.pub
+```
+and ...  
+if you are in repo that you want to push to github  
+```
+git push -u origin master
+```
 ### How-to create repo on github from commandline
 - prereq: [gh client](https://cli.github.com)  
 - additional infor [gh docs](https://cli.github.com/manual/gh_repo_create)  
