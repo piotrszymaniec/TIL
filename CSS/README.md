@@ -30,6 +30,7 @@ img {
   
 }
 ```
+### Exapnsing base css layouts
 when we go from styles described from desktop to mobile with mediaqueries we use:  
 `max-width: Ypx;`
 when we described our styles for mobile-first and then expand them through mediaqueries to desktop size we use:
