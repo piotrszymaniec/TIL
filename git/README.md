@@ -111,3 +111,9 @@ git commit -m "fixed untracked files"
 ---
 **Update**: Windows users make sure your `.gitignore` uses UTF-8 rather than UTF-16. See [comment](https://gist.github.com/pavankjadda/2bb6fbdd8786e1f57fd7bcbcc666b51d?permalink_comment_id=3860456#gistcomment-3860456) for details  
 credit https://gist.github.com/pavankjadda/2bb6fbdd8786e1f57fd7bcbcc666b51d
+
+### changing commit message in history
+1. go to commit before this which you want to edit
+2. create a branch
+3. make rebase -i and point  to rebase _ to _
+4. start (i've used fork program)
