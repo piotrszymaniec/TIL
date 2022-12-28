@@ -11,3 +11,20 @@ https://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-
 
 > .. a promise is just a state machine  
 > https://www.promisejs.org/implementing/
+
+```js
+var states = {
+  PENDING: 0,
+  FULFILLED: 1,
+  REJECTED: 2
+}
+
+function Promise() {
+// store state which can be PENDING, FULFILLED or REJECTED
+  var state = states.PENDING;
+// store value or error once FULFILLED or REJECTED  
+  var value = null;
+// store sucess & failure handlers attached by calling .then or .done
+  var handlers = [];  
+}
+```
