@@ -1,6 +1,7 @@
 # Git
 ---
 ### authorizing push access to repos on github  
+[problem with need to retype ssh everytime](https://9to5answer.com/starting-ssh-agent-on-windows-10-fails-quot-unable-to-start-ssh-agent-service-error-1058-quot)
 1. generate ssh key - preferably name it id_rsa so next command choose it by default  
 ```
 ssh-keygen -t ed25519 -C "your@github.email"
