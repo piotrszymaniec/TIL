@@ -71,12 +71,15 @@ An approximate description of the task execution process (**follow at your own p
 	+ src/index.js
 	
 ## ADDITIONAL TASKS
-
++ Add a logo to the footer with a link to the course and a link to the author's github
++ *(Make a commit)*
 + Adding a **"feature"** (for example, alphabetical filtering or something else)
 + *(Make a commit)*
 + We remove the explicit connection of the script from the **html template** (if not already done)
 + *(Make a commit)*
 + We implement adaptive and bring beauty (edit **HTML** and **CSS**)
++ *(Make a commit)*
++ Fix missing **img/news_placeholder.jpg** (file **src/components/view/news/news.ts**)
 + *(Make a commit)*
 + Change **URL** in **fetch** to one that will work in **gh-pages** (**https://nodenews.herokuapp.com/**)
 + *(Last\* commit)*
