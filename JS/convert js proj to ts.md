@@ -1,3 +1,5 @@
+credit: https://github-com.translate.goog/Jeneko/News-api-migration-walkthrough?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp
+
 # MIGRATION NEWS-API TO TS TASK WALKTHROUGH
 
 An approximate description of the task execution process (**follow at your own peril and risk**). It will be useful for those who have questions about what exactly needs to be done in the task. The rest will be of little use.
