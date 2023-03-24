@@ -1,6 +1,8 @@
 ## Contents
 ### 1. [Converting JS project to Typescript](convert-js-proj-to-ts.md)
 ### 2. [Few ways to split string to array](split-string-array.md)
+### 3. Useful built-in objects
++ [Intl]() - calculating time from seconds to HH:MM:SS format
 
 
 
