@@ -2,10 +2,8 @@
 ### 1. [Converting JS project to Typescript](convert-js-proj-to-ts.md)
 ### 2. [Few ways to split string to array](split-string-array.md)
 ### 3. Useful built-in objects
-+ [Intl]() - calculating time from seconds to HH:MM:SS format
-
-
-
++ [Intl](build-in-js-objects.md) - calculating time from seconds to HH:MM:SS format
+### 4. Scope visibility
 
 ## What async keyword does
 The async keyword is used to define an asynchronous function, which returns a AsyncFunction object. The await keyword is used to pause async function execution until a Promise is fulfilled, that is resolved or rejected, and to resume execution of the async function after fulfillment.
