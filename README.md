@@ -1,6 +1,5 @@
-# TIL
-Today I Learned  
+# TIL (Today I Learned)
 
-List of small bits of informations that solved my common problems.
+Here you find a collection of recipes that solved my problems / explained meaning.
 
 Serves also as remote notepad, for frontend related knowledge.
