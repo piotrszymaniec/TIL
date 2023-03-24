@@ -1,5 +1,5 @@
 ## Contents
-### 1. [Converting JS project to Typescript](https://#)
+### 1. [Converting JS project to Typescript](convert-js-proj-to-ts.md)
 
 
 
