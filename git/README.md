@@ -1,6 +1,13 @@
 # Git
+## Contents
+### 1. Authorizing push access to repos on gh
+### 2. Creating gh repo from command line
+### 3. Geting back to detached head commits
+### 4. How to undo a git commit without losing your files?
+### 5. How to fix .gitignore so it does exclude selected folder
+### 6. Changing commit message in history
 ---
-### authorizing push access to repos on github  
+### 1. Authorizing push access to repos on gh
 [problem with need to retype ssh everytime](https://9to5answer.com/starting-ssh-agent-on-windows-10-fails-quot-unable-to-start-ssh-agent-service-error-1058-quot)
 1. generate ssh key - preferably name it id_rsa so next command choose it by default  
 ```
@@ -23,7 +30,8 @@ if you are in repo that you want to push to github
 ```
 git push -u origin master
 ```
-### How-to create repo on github from commandline
+---
+### 2. Creating gh repo from command line
 - prereq: [gh client](https://cli.github.com)  
 - additional infor [gh docs](https://cli.github.com/manual/gh_repo_create)  
 
@@ -48,12 +56,12 @@ gh create repo new-repo-on-ghub-with-different-name-than-current-directory
 ```
 ---
 
-## How to get back to detached head commits
+## 3. How to get back to detached head commits
 ```
 git switch -c lost-commits
----
 ```
-## How to undo a git commit without losing your files?
+---
+## 4. How to undo a git commit without losing your files?
 
 There are a lot of ways to do so, for example:  
   
@@ -62,7 +70,7 @@ There are a lot of ways to do so, for example:
 git reset HEAD~1 --soft    
 ```
 That's it, your commit changes will be in your working directory, whereas the LAST commit will be removed from your current branch.  
-  
+
 ### 2. In case you did push publicly (on a branch called 'master'):  
 
 ```
@@ -83,9 +91,8 @@ now if you want to have those changes as you local changes in your working copy 
 git revert --no-commit 86b48ba (hash of the revert commit). 
 ```
 ---
-## How to fix .gitignore so it does exclude selected folder
+## 5. How to fix .gitignore so it does exclude selected folder
 Sometimes git does not exclude files/folders added `.gitignore` especially if you had commited them before. Here is how to fix it. I am ignoring [node_modules](https://user-images.githubusercontent.com/17564080/51767305-ef21a700-20aa-11e9-98b2-01d7a76b403c.png) from Angular project as an example
-
 
 1. Update `.gitignore` with the folder/file name you want to ignore. You can use anyone of the formats mentioned below (prefer format1)
 ```
@@ -112,8 +119,8 @@ git commit -m "fixed untracked files"
 ---
 **Update**: Windows users make sure your `.gitignore` uses UTF-8 rather than UTF-16. See [comment](https://gist.github.com/pavankjadda/2bb6fbdd8786e1f57fd7bcbcc666b51d?permalink_comment_id=3860456#gistcomment-3860456) for details  
 credit https://gist.github.com/pavankjadda/2bb6fbdd8786e1f57fd7bcbcc666b51d
-
-### changing commit message in history
+---
+## 6. Changing commit message in history
 1. go to commit before this which you want to edit
 2. create a branch
 3. make rebase -i and point  to rebase _ to _
