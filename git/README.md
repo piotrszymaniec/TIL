@@ -126,3 +126,10 @@ credit https://gist.github.com/pavankjadda/2bb6fbdd8786e1f57fd7bcbcc666b51d
 2. create a branch
 3. make rebase -i and point  to rebase _ to _
 4. start (i've used fork program)
+---
+### 7. How to write great README.md files 📑
+- todo get gist out of articles below
+ - articles https://tom.preston-werner.com/2010/08/23/readme-driven-development.html
+ - https://github.com/othneildrew/Best-README-Template
+ - example readme https://github.com/date-fns/date-fns/blob/main/README.md
+ - presentation about "magical readme" https://www.youtube.com/watch?v=SSjuUhkeqoo
