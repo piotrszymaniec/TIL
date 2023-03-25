@@ -1,11 +1,12 @@
-# Git
+# Git & github
 ## Contents
-### 1. Authorizing push access to repos on gh
+### 1. Authorizing 🔑push access to repos on gh
 ### 2. Creating gh repo from command line
 ### 3. Geting back to detached head commits
-### 4. How to undo a git commit without losing your files?
-### 5. How to fix .gitignore so it does exclude selected folder
+### 4. How to undo a git commit without losing 😢 your files?
+### 5. How to fix 🛠 .gitignore so it does exclude selected folder 📁
 ### 6. Changing commit message in history
+### 7. How to write great README.md files 📑
 ---
 ### 1. Authorizing push access to repos on gh
 [problem with need to retype ssh everytime](https://9to5answer.com/starting-ssh-agent-on-windows-10-fails-quot-unable-to-start-ssh-agent-service-error-1058-quot)
