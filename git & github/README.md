@@ -49,11 +49,11 @@ git push -u origin master
 
 from direcotry with some repo it creates ghub repo with same name and sets **remote** to ghub
 ```
-gh create repo
+gh repo create
 ```
 or
 ```
-gh create repo new-repo-on-ghub-with-different-name-than-current-directory
+gh repo create new-repo-on-ghub-with-different-name-than-current-directory
 ```
 ---
 
