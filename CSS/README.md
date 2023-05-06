@@ -36,3 +36,7 @@ img {
   
 - when we described our styles for mobile-first and then expand them through mediaqueries to desktop size we use:  
 `min-width: Ypx;`
+
+
+### replacing svg dynamicaly to be able to use css `fill:color` on thme
+https://stackoverflow.com/questions/11978995/how-to-change-color-of-svg-image-using-css-jquery-svg-image-replacement
