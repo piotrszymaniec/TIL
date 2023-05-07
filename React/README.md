@@ -1,8 +1,9 @@
 ### Table of Contents  
 [1. Courses](#courses)  
 [2. Articles](#articles)  
-[2. Designing Componenets](#components)  
-[2. Talks](#talks)  
+[3. Designing Componenets](#components)  
+[4. Talks](#talks) 
+
 
 ...snip...    
 
