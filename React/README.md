@@ -3,6 +3,9 @@
 [2. Articles](#articles)  
 [3. Designing Componenets](#components)  
 [4. Talks](#talks) 
+[5. Styling](#styling) 
+[6. Starting Project](#starting)
+  - React.js in [browser](#react-in-browser)
 
 
 ...snip...    
@@ -34,6 +37,23 @@ https://dev.to/victorocna/my-secret-trick-for-writing-great-react-components-fb8
 <a name="talks"></a>
 ### 4. Talks
 https://github.com/kjendrzyca/awesome-react-talks
+<a name="styling"></a>
 ### 5. Styling
 https://blog.bitsrc.io/5-methods-to-persisting-state-between-page-reloads-in-react-8fc9abd3fa2f
 what is https://bit.dev/ ?
+
+<a name="starting"></a>
+### 6. Starting Project
+<a name="react-in-browser"></a>
+### React.js in [browser](#react-in-browser)
+To include react.js in browser we to import external libraries:  
+add in header:  
+```html
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+```
+
+  - 
