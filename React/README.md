@@ -2,10 +2,10 @@
 [1. Courses](#courses)  
 [2. Articles](#articles)  
 [3. Designing Componenets](#components)  
-[4. Talks](#talks) 
-[5. Styling](#styling) 
-[6. Starting Project](#starting)
-  - React.js in [browser](#react-in-browser)
+[4. Talks](#talks)  
+[5. Styling](#styling)  
+[6. Starting Project](#starting)  
+  - React.js in [browser](#react-in-browser)  
 
 
 ...snip...    
