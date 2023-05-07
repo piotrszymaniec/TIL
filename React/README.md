@@ -55,5 +55,20 @@ add in header:
   <!-- Don't use this in production: -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 ```
+add on page
+```html
+<div id="root"></div>
+    <script type="text/babel" src="path/to/your.js"></script>
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
 
-  - 
+      Read this page for starting a new React project with JSX:
+      https://react.dev/learn/start-a-new-react-project
+
+      Read this page for adding React with JSX to an existing project:
+      https://react.dev/learn/add-react-to-an-existing-project
+    -->
+```
+move your attention to attribute `type="text/babel"` it wont work otherwise!  
+  
