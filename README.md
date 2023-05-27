@@ -16,4 +16,4 @@ Steps:
 3. link all shit to img/a tags 
   - in comandline `dir /p | gre`
 4. drop folder into new proj. Netlify
-5. Profit :)
+5. Profit :))
