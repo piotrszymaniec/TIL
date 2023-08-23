@@ -22,6 +22,22 @@ start-ssh-agent and enter passphrase if you added it in previous step
 ```
 ssh-add ./ssh/id_rsa
 ```
+if problems arise, start powershell with admin rights and if ssh-agent is stopped  
+Check the current status of ssh-agent:
+
+```Get-Service | ?{$_.Name -like '*ssh-agent*'} | select -Property Name, StartType, Status```
+
+Enable the Service if it is disabled:  
+  
+```Set-Service -Name ssh-agent -StartupType Manual```
+   
+Start the Service:  
+  
+```Start-Service ssh-agent```
+  
+Add your key as before:  
+```ssh-add <path to the key>```  
+
 4. add key to github  
 ```
 gh ssh-key add id_rsa.pub
