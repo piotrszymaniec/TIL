@@ -35,10 +35,22 @@ Thank you for providing more information. Since you're trying to install Ubuntu 
 Here are some steps you can try to resolve the issue:
 
 1. Check System Requirements:
-**Ensure that your system meets the minimum requirements for WSL 2:**
+**done: Ensure that your system meets the minimum requirements for WSL 2:**
 ```A 64-bit Windows 10 version 1903 or higher with Build 18362 or higher.```
  - mine - A 64-bit Windows 10 22H2 build 19045.3324
- **Virtualization capabilities enabled in BIOS/UEFI settings.**
+ **todo: Virtualization capabilities enabled in BIOS/UEFI settings.**
    I dont know
 
-   
+2. **done: Update Windows:**
+- Make sure your Windows operating system is fully updated. This includes all important and optional updates.
+
+3. Enable Virtualization:
+Confirm that virtualization is enabled in your computer's BIOS/UEFI settings. Virtualization must be enabled for WSL 2 to function properly.
+
+4. Check Windows Features:
+Before installing Ubuntu 22.04, ensure that the Windows Subsystem for Linux feature is enabled:
+
+Open "Turn Windows features on or off" from the Control Panel or by searching in the Start menu.
+Check the box for "Windows Subsystem for Linux" and click OK.
+Check Hyper-V:
+If you have Hyper-V enabled, it might conflict with WSL 2. You can't use both Hyper-V and WSL 2 at the same time. If you need to use both, you might need to switch between them.
