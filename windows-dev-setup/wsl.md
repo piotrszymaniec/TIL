@@ -46,7 +46,7 @@ Here are some steps you can try to resolve the issue:
 
 3. Enable Virtualization:
 Confirm that virtualization is enabled in your computer's BIOS/UEFI settings. Virtualization must be enabled for WSL 2 to function properly.
-
+![](https://i.imgur.com/5s0ZZqT.png)
 4. Check Windows Features:
 Before installing Ubuntu 22.04, ensure that the Windows Subsystem for Linux feature is enabled:
 
