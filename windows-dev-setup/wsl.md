@@ -1,3 +1,4 @@
+have not done yet ... https://techloris.com/0x8007007e/  
 ### WSL - windows subsystem for linux
 
 1. if wsl not installed, go to windows store and install
