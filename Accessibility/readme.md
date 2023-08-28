@@ -15,6 +15,43 @@ https://www.w3.org/WAI/ARIA/apg/
 voice of different approach (**Heydon Pickering**) :  
 https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/
 
+```css
+.hidden { 
+  display: none; 
+}
+.visually-hidden { 
+  position: absolute; 
+  clip: rect(0 0 0 0); 
+  height: 1px; 
+  width: 1px; 
+  Margin: -1px; 
+  padding: 0; 
+  border: 0; 
+  overflow: hidden;
+}
+```
+```html
+<main id="main"> 
+  <section class="content-section menu" aria-labelledby="food-menu-label" id="food"> 
+    <h1 class="visually-hidden">Menus</h1>| 
+    <div class="menu-content"> 
+      <h2 id="food-menu-label">Food</h2> 
+      <h3>Starters</h3> 
+      <p class="menu-item"> 
+        <span class="name">Edamame</span> 
+        <span class="price">3.5@</span> 
+      </p> 
+      <p class="menu-item"> 
+        <span class="name">Gyoza</span> 
+        <span class="price">5.5@</span> 
+      </p> 
+      <p class="menu-item"> 
+        <span class="name">Veggie Tempura</span> 
+        <span class="price">7.95</span> 
+      </p>
+...
+```
+
 ## Verification Tools
 https://wave.webaim.org/repor  very nice!
 
