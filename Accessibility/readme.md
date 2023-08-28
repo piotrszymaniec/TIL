@@ -12,6 +12,8 @@ Note:
 properly designing presentational non-standard widgets  
 https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/
 https://www.w3.org/WAI/ARIA/apg/
+voice of different approach (**Heydon Pickering**) :  
+https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/
 
 ## Verification Tools
 https://wave.webaim.org/repor  very nice!
