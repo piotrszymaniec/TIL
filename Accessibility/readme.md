@@ -52,6 +52,8 @@ https://www.smashingmagazine.com/2017/11/building-accessible-menu-systems/
 ...
 ```
 
+<img height="200" src="https://i.imgur.com/Xh1HTnI.png">
+
 ## Verification Tools
 https://wave.webaim.org/repor  very nice!
 
