@@ -29,3 +29,5 @@ fTs=
 Ly8gSW5pdGlhbGl6ZSBGaXJlYmFzZQ==
 Y29uc3QgYXBwID0gaW5pdGlhbGl6ZUFwcChmaXJlYmFzZUNvbmZpZyk7
 ```
+
+`npm install -g firebase-tools`
