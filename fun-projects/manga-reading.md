@@ -25,3 +25,9 @@ Dodalem funkcje updateDeck na podstawie funkcji deleteDeck"
  1. w deklaracji funkcji deleteDeck użyto metody `findByIdAndDelete` obiektu Schema `Deck`
  2. znalazłem metodę `findByIdAndUpdate` dla obiektu Schema.
  	- potrzebuje ona drugiego parametru, obiektu ze z uaktualnionymi danymi np. { title: 'abc'} (jesli schema bylo {title: string, decks: string[]})
+
+
+## installation
+### service providers
+1. Mongo Atlas - hosing mongodb
+2. Hostinger - hosting backend and frontend with Virtual Machine, domain hosting, ip setting. I will change it to other free provider.
