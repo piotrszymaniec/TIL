@@ -4,3 +4,7 @@
 # overcoming stackoverflow 60 rep requirement for new users
 https://meta.stackexchange.com/questions/139661/how-to-get-initial-reputation-on-stack-overflow-with-the-new-user-restrictions-i  
 https://www.youtube.com/watch?v=Owpn0SCzkLU  
+
+
+good question for employer when looking for a job
+https://ianmacartney.typeform.com/to/jUc74x
